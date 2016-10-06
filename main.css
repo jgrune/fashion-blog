@@ -1,0 +1,55 @@
+body {
+	padding: 20px;
+	font-family: "avenir", sans-serif;
+	font-weight: lighter;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+nav a {
+	color: #DDDDDD;
+}
+
+h1 > a {
+	color: red;
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 50px;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+h2 > a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+h3 {
+	color: #dddddd;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+h4{
+	text-align: right;
+}
+
+h4 > a{
+	text-decoration: none;
+	color: red;
+}
+
+span {
+	float: left;
+	color: #dddddd;
+	font-size: 90px;
+	margin: -15px 10px 0 0;
+	text-align: left;
+}
